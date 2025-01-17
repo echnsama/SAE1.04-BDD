@@ -35,7 +35,8 @@ Le projet est conçu pour répondre aux besoins suivants :
 - **Inventaire des produits :** Vue complète des stocks.  
 - **Revenus mensuels :** Analyse des performances mensuelles.  
 - **Produits à faible stock :** Liste des produits nécessitant un réapprovisionnement.  
-- **Ticket de caisse :** Rapport spécifique pour chaque vente.  
+- **Ticket de caisse :** Rapport spécifique pour chaque vente.
+   
 
 ---
 
@@ -44,7 +45,9 @@ Le projet est conçu pour répondre aux besoins suivants :
 1. **Produit :** Gère les informations sur les produits (ID, nom, prix, stock, etc.).  
 2. **Client :** Contient les informations des clients.  
 3. **Vente :** Enregistre les transactions (ID vente, client, date).  
-4. **Détail_Vente :** Associe les ventes aux produits (quantité, prix unitaire).  
+4. **Détail_Vente :** Associe les ventes aux produits (quantité, prix unitaire).
+5. **Stock :** Associe un produit à un emplacement dans le stock pour savoir les quantité du produit restante.
+6. **Catégorie :** Associe un produit à une catégorie de produit(exemple Produit Laitier).
 
 ### **Relations**  
 Les tables sont reliées de manière à maintenir l’intégrité des données, notamment via des relations **un-à-plusieurs** :  
@@ -75,16 +78,16 @@ Les tables sont reliées de manière à maintenir l’intégrité des données, 
 
 ## 🧰 Technologies Utilisées  
 - **Microsoft Access :** Pour la conception de la base de données et des interfaces.  
-- **VBA :** Pour automatiser certaines actions comme l’ouverture d’états ou la navigation entre formulaires.  
+- **PowerAmc :** Pour créer le Modèle Conceptuel de Donnée.  
 
 ---
 
 ## 🚀 Comment Utiliser le Projet  
-1. Ouvrez le fichier Access fourni (`.accdb`).  
-2. Accédez au **Menu Principal** pour naviguer entre les fonctionnalités.  
-3. Modifiez ou ajoutez des données via les formulaires interactifs.  
-4. Imprimez les états pour obtenir des rapports professionnels.  
+1. Ouvrez le fichier zip Access fourni (`.accdb`).  
+2. Décompressez le fichier fourni.
+3. Ouvrez **Access.accdb** suyr Access pour naviguer entre les fonctionnalités.
+4. Pour l'explication detaillé du projet ouvrez le **Rapport.pdf**.
 
 ---
 
-## 📂 Structure du Dépôt  
+  
